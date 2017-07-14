@@ -1,0 +1,13 @@
+# General temp files
+*.DS_Store
+*.swp
+*.lck
+
+# Altium
+*History
+*__Previews
+*Project\ Logs\ for\ *
+*Project\ Outputs\ for\ *
+*debug.log
+*.PrjPcbStructure
+*.ERR
