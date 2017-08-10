@@ -89,10 +89,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[GeneratedDocument1]
-DocumentPath=..\SuperSweet\Supersweet_lib\Schlib1.cmp
-DItemRevisionGUID=
-
 [SearchPath1]
 Path=datasheets\*.*
 IncludeSubFolders=1
