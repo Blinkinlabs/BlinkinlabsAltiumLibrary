@@ -19,7 +19,7 @@ set -e
 
 DATE=`date +%Y-%m-%d`
 NAME=$(basename -s .git $(git config --get remote.origin.url))
-REV="RevB"
+REV="RevF"
 
 TITLE="${DATE} ${NAME} ${REV}"
 
