@@ -19,7 +19,7 @@ set -e
 
 DATE=`date +%Y-%m-%d`
 NAME=$(basename -s .git $(git config --get remote.origin.url))
-REV="RevF"
+REV="RevA"
 
 TITLE="${DATE} ${NAME} ${REV}"
 
@@ -49,6 +49,7 @@ for FILE in ${GERBERFILES[*]}; do
 	fi
 done
 
+#TODO: If only one type of hole is present, then *.TXT should be used instead
 DRILLFILES=(SlotHoles.TXT RoundHoles.TXT)
 for FILE in ${DRILLFILES[*]}; do
 	if [ -e "NC Drill/"*"${FILE}" ]; then
