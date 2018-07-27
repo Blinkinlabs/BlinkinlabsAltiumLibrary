@@ -50,14 +50,14 @@ for FILE in ${GERBERFILES[*]}; do
 done
 
 #TODO: If only one type of hole is present, then *.TXT should be used instead
-DRILLFILES=(SlotHoles.TXT RoundHoles.TXT)
+DRILLFILES=(TXT)
 for FILE in ${DRILLFILES[*]}; do
 	if [ -e "NC Drill/"*"${FILE}" ]; then
 		cp "NC Drill/"*"${FILE}" "${GERBERDIR}"
 	fi
 done
 
-pushd ${RELEASEDIR}
+pushd "${RELEASEDIR}"
 eval "$ZIP -r '${TITLE} Gerber.zip' '${TITLE}'"
 popd
 
