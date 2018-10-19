@@ -36,7 +36,7 @@ echo "Releasing '${TITLE}' to: ${RELEASEDIR}"
 mkdir -p "${RELEASEDIR}"
 
 cp Job1.pdf "${RELEASEDIR}/${TITLE}.pdf"
-cp BOM/*.xls "${RELEASEDIR}/${TITLE} BOM.xls"
+cp "BOM/"*.xls "${RELEASEDIR}/${TITLE} BOM.xls"
 cp ExportSTEP/*.step "${RELEASEDIR}/${TITLE}.step"
 cp "Pick Place/"*.txt "${RELEASEDIR}/${TITLE} Pick Place.txt"
 
