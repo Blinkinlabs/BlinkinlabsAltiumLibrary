@@ -14,14 +14,53 @@
 # 3. Note that you will need to edit this file to set the revision (TODO)
 # 4. Release files will be stored to the /releases folder of your git repo
 # 5. Check the release files in, send to board house, etc
+#
+
+usage="$(basename "$0") [-h] [-n name] -r revision  -- Create a release package for an Altium project
+
+where:
+    -h  show this help text
+    -r  Revision number (required, ex: RevA)
+    -n  Project name (optional, defaults to git project name)"
+
+while getopts ':h:r:n:' option; do
+  case "$option" in
+    h) echo "$usage"
+       exit
+       ;;
+    r) REV="$OPTARG"
+       ;;
+    n) NAME="$OPTARG"
+       ;;
+    :) printf "missing argument for -%s\n" "$OPTARG" >&2
+       echo "$usage" >&2
+       exit 1
+       ;;
+   \?) printf "illegal option: -%s\n" "$OPTARG" >&2
+       echo "$usage" >&2
+       exit 1
+       ;;
+  esac
+done
+
+if [ -e "$REV" ]; then
+    echo "Missing revision argument"
+    echo "$usage" >&2
+    exit 1
+fi
 
 set -e
 
 DATE=`date +%Y-%m-%d`
-NAME=$(basename -s .git $(git config --get remote.origin.url))
-REV="RevA"
 
-TITLE="${DATE} ${NAME} ${REV}"
+if [ -e "$NAME" ]; then
+    NAME=$(basename -s .git $(git config --get remote.origin.url))
+fi
+
+TITLE="${DATE}_${NAME}_${REV}"
+
+echo ${TITLE}
+exit
 
 CURRENTDIR=`pwd`
 REPODIR=`git rev-parse --show-toplevel`
