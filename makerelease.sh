@@ -60,7 +60,6 @@ fi
 TITLE="${DATE}_${NAME}_${REV}"
 
 echo ${TITLE}
-exit
 
 CURRENTDIR=`pwd`
 REPODIR=`git rev-parse --show-toplevel`
@@ -101,3 +100,5 @@ eval "$ZIP -r '${TITLE} Gerber.zip' '${TITLE}'"
 popd
 
 rm -rf "${GERBERDIR}"
+
+explorer `cygpath -w "${RELEASEDIR}"`
