@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=Blinkinlabs.OutJob
 Description=
 TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
@@ -189,7 +189,7 @@ OutputEnabled10_OutputMedium2=0
 OutputEnabled10_OutputMedium3=6
 OutputDefault10=0
 Configuration10_Name1=OutputConfigurationParameter1
-Configuration10_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=False|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|Filter= |FilterActive=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:10|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:11|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:2|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:Descending,SortIndex:0,Position:3|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:9|Column#9=Name:Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:12|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:13|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:4|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:7|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#18=Name:Technology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#19=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#20=Name:Case-EIA,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#21=Name:Case-Metric,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#22=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21
+Configuration10_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=False|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|Filter= |FilterActive=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:10|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:11|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:2|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:Descending,SortIndex:0,Position:3|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:9|Column#9=Name:Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:12|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:13|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:4|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:7|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#18=Name:Technology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#19=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#20=Name:Case-EIA,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#21=Name:Case-Metric,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#22=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#23=Name:ComponentLink3Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#24=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#25=Name:Pitch,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38|Column#26=Name:Rated Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39|Column#27=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#28=Name:Temperature Range,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41|Column#29=Name:Orientation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33|Column#30=Name:RoHS,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#31=Name:PartNumber,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|Column#32=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#33=Name:Max Thickness,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#34=Name:Mounting Technology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#35=Name:PackageDescription,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34|Column#36=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#37=Name:Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#38=Name:PackageReference,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35|Column#39=Name:ComponentLink3URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#40=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#41=Name:DatasheetVersion,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#42=Name:PackageVersion,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36
 OutputType11=Assembly
 OutputName11=Assembly Drawings
 OutputCategory11=Assembly
@@ -244,7 +244,7 @@ PcbPrintPreferences11=SubsititueFont_Default=True|SubsititueFont_Serif=True|Subs
 [PublishSettings]
 OutputFilePath2=C:\Users\blinkinlabs\Blinkinlabs-Repos\Krugman-GeoLED\JB-Altium\Project Outputs for JB\Job1.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for JG
+OutputBasePath2=Project Outputs for PCB_Project1
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -269,9 +269,9 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\blinkinlabs\Blinkinlabs-Repos\Krugman-GeoLED\JG-Altium\Project Outputs for JG\
+OutputFilePath3=C:\Users\blinkinlabs\Blinkinlabs-Repos\TeddyLoWakingLife\test pcb\Project Outputs for PCB_Project1\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for JG
+OutputBasePath3=Project Outputs for PCB_Project1
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -286,7 +286,7 @@ OpenOutput3=1
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\blinkinlabs\Blinkinlabs-Repos\Krugman-GeoLED\JB-Altium\Project Outputs for JB\Job1.PDF
 OpenOutputs2=1
-RelativeOutputPath3=C:\Users\blinkinlabs\Blinkinlabs-Repos\Krugman-GeoLED\JG-Altium\Project Outputs for JG\
+RelativeOutputPath3=C:\Users\blinkinlabs\Blinkinlabs-Repos\TeddyLoWakingLife\test pcb\Project Outputs for PCB_Project1\
 OpenOutputs3=1
 AddToProject3=0
 TimestampFolder3=0
