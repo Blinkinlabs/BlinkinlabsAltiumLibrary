@@ -61,13 +61,14 @@ TITLE="${DATE}_${NAME}_${REV}"
 
 echo ${TITLE}
 
-CURRENTDIR=`pwd`
+# CURRENTDIR=`pwd`
 REPODIR=`git rev-parse --show-toplevel`
 RELEASEDIR=${REPODIR}/releases
 GERBERDIR="${RELEASEDIR}/${TITLE}"
 
 ZIP="/c/Program\ Files\ \(x86\)/GnuWin32/bin/zip"
 
+cd "Project Outputs for "*
 
 echo "Releasing '${TITLE}' to: ${RELEASEDIR}"
 
