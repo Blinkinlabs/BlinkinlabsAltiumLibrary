@@ -81,19 +81,19 @@ cp "Pick Place/"*.csv "${RELEASEDIR}/${TITLE} Pick Place.csv"
 
 mkdir "${GERBERDIR}"
 
-GERBERFILES=(GTL GTO GTP GTS GBL GBO GBP GBS GM1 G1 G2 G3 G4)
-for FILE in ${GERBERFILES[*]}; do
-	if [ -e "Gerber/"*"${FILE}" ]; then
-		cp "Gerber/"*"${FILE}" "${GERBERDIR}"
+GERBERFILEEXTENSIONS=(GTL GTO GTP GTS GBL GBO GBP GBS GM1 G1 G2 G3 G4)
+for EXTENSION in ${GERBERFILEEXTENSIONS[*]}; do
+	if [ -e "Gerber/"*"${EXTENSION}" ]; then
+		cp "Gerber/"*"${EXTENSION}" "${GERBERDIR}"
 	fi
 done
 
 #TODO: If only one type of hole is present, then *.TXT should be used instead
-DRILLFILES=(TXT)
-for FILE in ${DRILLFILES[*]}; do
-	if [ -e "NC Drill/"*"${FILE}" ]; then
-		cp "NC Drill/"*"${FILE}" "${GERBERDIR}"
-	fi
+DRILLFILEEXTENSIONS=(TXT)
+for EXTENSION in ${DRILLFILEEXTENSIONS[*]}; do
+    for FILE in "NC Drill/"*"${EXTENSION}"; do
+		cp "NC Drill/"*"${EXTENSION}" "${GERBERDIR}"
+    done
 done
 
 pushd "${RELEASEDIR}"
