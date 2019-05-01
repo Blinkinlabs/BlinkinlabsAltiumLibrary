@@ -24,7 +24,7 @@ is_git_dir() {
 #   5: diverged
 
 check_status() {
-    git remote update 2>1 > /dev/null
+    git remote update 2>&1 > /dev/null
 
     # '@' tells git to look at the current branch
     # '@{u}' tells git to look at the upstream branch for this branch
