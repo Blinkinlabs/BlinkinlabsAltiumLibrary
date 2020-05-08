@@ -1,0 +1,196 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\Users\matt\Blinkinlabs-Repos\Blinkinlabs-Altium-Library\libraries\dblib_cap_murata\capacitor murata.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=0
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=Microsoft Excel
+LibraryDatabasePath=capacitor murata.xls
+DatabasePathRelative=1
+TopPanelCollapsed=0
+LibrarySearchPath=
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=capacitor_murata_0201$
+[Table1]
+SchemaName=
+TableName=capacitor_murata_0201$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=120|Library Path0=178|Footprint Ref0=139|Footprint Path0=172|Description0=258|Footprint Ref 20=153|Footprint Path 20=172|Footprint Ref 30=153|Footprint Path 30=172|PartNumber0=200|Datasheets0=818|Image0=756|Digi-Key Part Number0=208|Manufacturer0=268|Packaging0=118|Series0=84|Value0=83|Tolerance0=114|Voltage0=99|Temperature Coefficient0=224|Operating Temperature0=220|Features0=196|Applications0=246|Mounting Type0=176|Package / Case0=311|Case/Package0=146
+[Table2]
+SchemaName=
+TableName=capacitor_murata_0402$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=120|Library Path0=178|Footprint Ref0=139|Footprint Path0=172|Description0=258|Footprint Ref 20=153|Footprint Path 20=172|Footprint Ref 30=153|Footprint Path 30=172|Datasheets0=818|Image0=554|Digi-Key Part Number0=208|PartNumber0=200|Manufacturer0=268|Packaging0=118|Series0=84|Value0=83|Tolerance0=114|Voltage0=99|Temperature Coefficient0=224|Operating Temperature0=220|Features0=380|Applications0=246|Package / Case0=156|Case/Package0=146
+[Table3]
+SchemaName=
+TableName=capacitor_murata_0603$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=120|Library Path0=178|Footprint Ref0=139|Footprint Path0=172|Description0=263|Footprint Ref 20=153|Footprint Path 20=172|Footprint Ref 30=153|Footprint Path 30=172|Datasheets0=818|Image0=617|Digi-Key Part Number0=208|PartNumber0=201|Manufacturer0=268|Series0=84|Value0=83|Tolerance0=114|Voltage0=99|Temperature Coefficient0=224|Operating Temperature0=220|Features0=380|Applications0=250|Package / Case0=156|Case/Package0=146
+[Table4]
+SchemaName=
+TableName=capacitor_murata_0805$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=120|Library Path0=178|Footprint Ref0=139|Footprint Path0=172|Description0=263|Footprint Ref 20=153|Footprint Path 20=172|Footprint Ref 30=153|Footprint Path 30=172|Datasheets0=818|Image0=724|Digi-Key Part Number0=208|PartNumber0=198|Manufacturer0=268|Series0=84|Part Status0=123|Value0=83|Tolerance0=114|Voltage0=99|Temperature Coefficient0=224|Operating Temperature0=220|Features0=198|Applications0=250|Mounting Type0=176|Package / Case0=156|Case/Package0=146
+[Table5]
+SchemaName=
+TableName=capacitor_murata_1206$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=120|Library Path0=178|Footprint Ref0=139|Footprint Path0=172|Description0=266|Footprint Ref 20=153|Footprint Path 20=172|Footprint Ref 30=153|Footprint Path 30=172|Datasheets0=818|Image0=600|Digi-Key Part Number0=208|PartNumber0=199|Manufacturer0=268|Series0=84|Part Status0=123|Value0=83|Tolerance0=114|Voltage0=100|Temperature Coefficient0=224|Operating Temperature0=220|Applications0=250|Package / Case0=156|Case/Package0=146
+[Table6]
+SchemaName=
+TableName=capacitor_murata_1210$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=120|Library Path0=178|Footprint Ref0=139|Footprint Path0=172|Description0=263|Footprint Ref 20=153|Footprint Path 20=172|Footprint Ref 30=153|Footprint Path 30=172|Datasheets0=818|Image0=724|Digi-Key Part Number0=208|PartNumber0=197|Manufacturer0=268|Series0=84|Value0=83|Tolerance0=114|Voltage0=100|Temperature Coefficient0=224|Operating Temperature0=220|Features0=332|Applications0=250|Package / Case0=311|Case/Package0=146
+[FieldMap1]
+Options=FieldName=capacitor_murata_0201$.Library Ref|TableNameOnly=capacitor_murata_0201$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=capacitor_murata_0201$.Library Path|TableNameOnly=capacitor_murata_0201$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=capacitor_murata_0201$.Footprint Ref|TableNameOnly=capacitor_murata_0201$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=capacitor_murata_0201$.Footprint Path|TableNameOnly=capacitor_murata_0201$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=capacitor_murata_0201$.Description|TableNameOnly=capacitor_murata_0201$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=capacitor_murata_0201$.Footprint Ref 2|TableNameOnly=capacitor_murata_0201$|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=capacitor_murata_0201$.Footprint Path 2|TableNameOnly=capacitor_murata_0201$|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=capacitor_murata_0201$.Footprint Ref 3|TableNameOnly=capacitor_murata_0201$|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=capacitor_murata_0201$.Footprint Path 3|TableNameOnly=capacitor_murata_0201$|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=capacitor_murata_0201$.PartNumber|TableNameOnly=capacitor_murata_0201$|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=capacitor_murata_0402$.Library Ref|TableNameOnly=capacitor_murata_0402$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=capacitor_murata_0402$.Library Path|TableNameOnly=capacitor_murata_0402$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=capacitor_murata_0402$.Footprint Ref|TableNameOnly=capacitor_murata_0402$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=capacitor_murata_0402$.Footprint Path|TableNameOnly=capacitor_murata_0402$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=capacitor_murata_0402$.Description|TableNameOnly=capacitor_murata_0402$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=capacitor_murata_0402$.Footprint Ref 2|TableNameOnly=capacitor_murata_0402$|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
+Options=FieldName=capacitor_murata_0402$.Footprint Path 2|TableNameOnly=capacitor_murata_0402$|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=capacitor_murata_0402$.Footprint Ref 3|TableNameOnly=capacitor_murata_0402$|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap19]
+Options=FieldName=capacitor_murata_0402$.Footprint Path 3|TableNameOnly=capacitor_murata_0402$|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap20]
+Options=FieldName=capacitor_murata_0402$.PartNumber|TableNameOnly=capacitor_murata_0402$|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=capacitor_murata_0603$.Library Ref|TableNameOnly=capacitor_murata_0603$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap22]
+Options=FieldName=capacitor_murata_0603$.Library Path|TableNameOnly=capacitor_murata_0603$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap23]
+Options=FieldName=capacitor_murata_0603$.Footprint Ref|TableNameOnly=capacitor_murata_0603$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap24]
+Options=FieldName=capacitor_murata_0603$.Footprint Path|TableNameOnly=capacitor_murata_0603$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap25]
+Options=FieldName=capacitor_murata_0603$.Description|TableNameOnly=capacitor_murata_0603$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap26]
+Options=FieldName=capacitor_murata_0603$.Footprint Ref 2|TableNameOnly=capacitor_murata_0603$|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap27]
+Options=FieldName=capacitor_murata_0603$.Footprint Path 2|TableNameOnly=capacitor_murata_0603$|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap28]
+Options=FieldName=capacitor_murata_0603$.Footprint Ref 3|TableNameOnly=capacitor_murata_0603$|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap29]
+Options=FieldName=capacitor_murata_0603$.Footprint Path 3|TableNameOnly=capacitor_murata_0603$|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap30]
+Options=FieldName=capacitor_murata_0603$.PartNumber|TableNameOnly=capacitor_murata_0603$|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap31]
+Options=FieldName=capacitor_murata_0805$.Library Ref|TableNameOnly=capacitor_murata_0805$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap32]
+Options=FieldName=capacitor_murata_0805$.Library Path|TableNameOnly=capacitor_murata_0805$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap33]
+Options=FieldName=capacitor_murata_0805$.Footprint Ref|TableNameOnly=capacitor_murata_0805$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap34]
+Options=FieldName=capacitor_murata_0805$.Footprint Path|TableNameOnly=capacitor_murata_0805$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap35]
+Options=FieldName=capacitor_murata_0805$.Description|TableNameOnly=capacitor_murata_0805$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap36]
+Options=FieldName=capacitor_murata_0805$.Footprint Ref 2|TableNameOnly=capacitor_murata_0805$|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap37]
+Options=FieldName=capacitor_murata_0805$.Footprint Path 2|TableNameOnly=capacitor_murata_0805$|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap38]
+Options=FieldName=capacitor_murata_0805$.Footprint Ref 3|TableNameOnly=capacitor_murata_0805$|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap39]
+Options=FieldName=capacitor_murata_0805$.Footprint Path 3|TableNameOnly=capacitor_murata_0805$|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap40]
+Options=FieldName=capacitor_murata_0805$.PartNumber|TableNameOnly=capacitor_murata_0805$|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap41]
+Options=FieldName=capacitor_murata_1206$.Library Ref|TableNameOnly=capacitor_murata_1206$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap42]
+Options=FieldName=capacitor_murata_1206$.Library Path|TableNameOnly=capacitor_murata_1206$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap43]
+Options=FieldName=capacitor_murata_1206$.Footprint Ref|TableNameOnly=capacitor_murata_1206$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap44]
+Options=FieldName=capacitor_murata_1206$.Footprint Path|TableNameOnly=capacitor_murata_1206$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap45]
+Options=FieldName=capacitor_murata_1206$.Description|TableNameOnly=capacitor_murata_1206$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap46]
+Options=FieldName=capacitor_murata_1206$.Footprint Ref 2|TableNameOnly=capacitor_murata_1206$|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap47]
+Options=FieldName=capacitor_murata_1206$.Footprint Path 2|TableNameOnly=capacitor_murata_1206$|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap48]
+Options=FieldName=capacitor_murata_1206$.Footprint Ref 3|TableNameOnly=capacitor_murata_1206$|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap49]
+Options=FieldName=capacitor_murata_1206$.Footprint Path 3|TableNameOnly=capacitor_murata_1206$|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap50]
+Options=FieldName=capacitor_murata_1206$.PartNumber|TableNameOnly=capacitor_murata_1206$|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap51]
+Options=FieldName=capacitor_murata_1210$.Library Ref|TableNameOnly=capacitor_murata_1210$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap52]
+Options=FieldName=capacitor_murata_1210$.Library Path|TableNameOnly=capacitor_murata_1210$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap53]
+Options=FieldName=capacitor_murata_1210$.Footprint Ref|TableNameOnly=capacitor_murata_1210$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap54]
+Options=FieldName=capacitor_murata_1210$.Footprint Path|TableNameOnly=capacitor_murata_1210$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap55]
+Options=FieldName=capacitor_murata_1210$.Description|TableNameOnly=capacitor_murata_1210$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap56]
+Options=FieldName=capacitor_murata_1210$.Footprint Ref 2|TableNameOnly=capacitor_murata_1210$|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap57]
+Options=FieldName=capacitor_murata_1210$.Footprint Path 2|TableNameOnly=capacitor_murata_1210$|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap58]
+Options=FieldName=capacitor_murata_1210$.Footprint Ref 3|TableNameOnly=capacitor_murata_1210$|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap59]
+Options=FieldName=capacitor_murata_1210$.Footprint Path 3|TableNameOnly=capacitor_murata_1210$|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap60]
+Options=FieldName=capacitor_murata_1210$.PartNumber|TableNameOnly=capacitor_murata_1210$|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
