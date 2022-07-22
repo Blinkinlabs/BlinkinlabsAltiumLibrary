@@ -66,7 +66,8 @@ REPODIR=`git rev-parse --show-toplevel`
 RELEASEDIR=${REPODIR}/releases
 GERBERDIR="${RELEASEDIR}/${TITLE}"
 
-ZIP="/c/Program\ Files\ \(x86\)/GnuWin32/bin/zip"
+#ZIP="/c/Program\ Files\ \(x86\)/GnuWin32/bin/zip"
+ZIP="/c/Program\ Files/7-Zip/7z.exe"
 
 cd "Project Outputs for "*
 
@@ -97,7 +98,8 @@ for EXTENSION in ${DRILLFILEEXTENSIONS[*]}; do
 done
 
 pushd "${RELEASEDIR}"
-eval "$ZIP -r '${TITLE} Gerber.zip' '${TITLE}'"
+#eval "$ZIP -r '${TITLE} Gerber.zip' '${TITLE}'"
+eval "$ZIP a -r '${TITLE} Gerber.zip' '${TITLE}'"
 popd
 
 rm -rf "${GERBERDIR}"
